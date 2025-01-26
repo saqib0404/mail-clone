@@ -1,0 +1,48 @@
+.container {
+    background-color: #ffff;
+    margin-top: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+html,
+body {
+    height: 100%;
+    /* Make sure the body and html take full height */
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+    background-color: #f0eeee;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.main-frame {
+    width: 100%;
+    margin-bottom: 10px;
+    /* Set a width for the frame (you can adjust it as needed) */
+    max-width: 620px;
+    /* Limit the max width for better layout on large screens */
+    /* padding: 20px; */
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+    /* Optional: Add a border for visibility */
+}
+
+
+
+img {
+    width: 100%;
+    /* Make image responsive */
+    max-width: 200px;
+    /* Optional: Limit max image width */
+    display: block;
+    margin: 0 auto;
+    /* Horizontally center the image */
+}
